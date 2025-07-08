@@ -1,11 +1,9 @@
 main {
   height: 70vh;
-  width: 85vw;
   background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10px;
 }
 
 .table {
@@ -15,9 +13,8 @@ main {
   width: 100%;
   margin: 0 15px;
   background-color: gold;
-} 
+}
 
 th {
   padding: 8px;
 }
-
