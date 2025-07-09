@@ -1,60 +1,64 @@
 .sidebar {
-  background: linear-gradient(90deg, #4e73df 10%, #224abe 100%);
+  background: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
   display: flex;
   position: relative;
   flex-direction: column;
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.85rem;
   min-height: 100vh;
-  width: 20vw !important;
-}
-
-.sidebar ul {
-  list-style: none;
-  text-align: start;
+  width: 22vw !important;
 }
 
 .container-title {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
   justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  z-index: 1;
 }
 
 .container-title h2 {
   font-size: 1rem;
+  color: #fff;
 }
 
 .container-title i {
   font-size: 1.8rem;
-  transform: rotate(-15deg); /* gira para a esquerda */
+  transform: rotate(-15deg);
   color: #fff;
 }
 
 .list {
+  list-style: none;
+  text-align: start;
   font-size: 14px;
   padding-right: 20px;
+  margin-left: -20px;
 }
 
-.list li {
+.list li:not(:first-child) {
   margin-top: 20px;
   text-align: start;
 }
 
 .dashboard {
-  border-top: 0.5px solid grey;
-  border-bottom: 0.5px solid grey;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
   padding: 15px 0px;
 }
 
 .utilities {
-  border-bottom: 0.5px solid grey;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
   padding: 15px 0px;
 }
 
 .tables {
-  border-bottom: 0.5px solid grey;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
   padding: 15px 0px;
 }
 
@@ -72,9 +76,26 @@
   height: 35px;
   border-radius: 50%;
   border-color: transparent;
-  background-color:rgba(255, 255, 255, .25); 
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-top: 5px !important;
 }
 
 .btn-sidebar i {
   color: #fff;
+}
+
+.list li i {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.box-list {
+  display: flex;
+  gap: 8px;
+}
+
+.list-classification {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
 }

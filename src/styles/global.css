@@ -1,4 +1,9 @@
+:root {
+  padding: 0;
+}
+
 body {
+  font-family: "Nunito" , sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,4 +20,24 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+}
+
+.description-page {
+  margin-left: 20px;
+}
+
+.description-page h1 {
+  margin: 0 0 8px;
+  font-weight: 400;
+  font-size: 1.75rem;
+  color: #5a5c69;
+}
+
+.description-page p {
+  color: #858796;
+}
+
+a {
+  text-decoration: none;
+  color: #224abe;
 }
