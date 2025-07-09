@@ -1,7 +1,6 @@
 .navbar {
   background-color: aqua;
   display: flex;
-  /* width: 100%; */
   align-items: center;
   justify-content: space-between;
   height: 65px;
@@ -58,7 +57,6 @@
 .user p {
   color: #fff;
 }
-
 
 .img-profile {
   width: 27px;
