@@ -6,7 +6,6 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.85rem;
   min-height: 100vh;
-  width: 22vw !important;
 }
 
 .container-title {
@@ -22,15 +21,17 @@
   z-index: 1;
 }
 
-.container-title h2 {
-  font-size: 1rem;
-  color: #fff;
-}
+.container-title {
+  i {
+    font-size: 1.8rem;
+    transform: rotate(-15deg);
+    color: #fff;
+  }
 
-.container-title i {
-  font-size: 1.8rem;
-  transform: rotate(-15deg);
-  color: #fff;
+  h2 {
+    font-size: 1rem;
+    color: #fff;
+  }
 }
 
 .list {
@@ -39,27 +40,11 @@
   font-size: 14px;
   padding-right: 20px;
   margin-left: -20px;
-}
 
-.list li:not(:first-child) {
-  margin-top: 20px;
-  text-align: start;
-}
-
-.dashboard {
-  border-top: 0.5px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
-  padding: 15px 0px;
-}
-
-.utilities {
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
-  padding: 15px 0px;
-}
-
-.tables {
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
-  padding: 15px 0px;
+  li:not(:first-child) {
+    margin-top: 20px;
+    text-align: start;
+  }
 }
 
 .container-btn {
@@ -68,9 +53,6 @@
 }
 
 .btn-sidebar {
-  /* position: absolute;
-  top: 44%;
-  left: 40%; */
   border-radius: 50px;
   width: 35px;
   height: 35px;
@@ -78,24 +60,25 @@
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.25);
   margin-top: 5px !important;
-}
-
-.btn-sidebar i {
-  color: #fff;
-}
-
-.list li i {
+  .list li i {
   color: rgba(255, 255, 255, 0.3);
 }
-
+}
 .box-list {
   display: flex;
   gap: 8px;
+  padding: 0.3rem;
+  width: 11rem;
 }
 
 .list-classification {
-  font-size: 10px;
-  font-weight: bold;
+  padding-top: 23px !important;
+  font-size: 0.65rem;
+  font-weight: 800;
   color: rgba(255, 255, 255, 0.3);
-  padding-top: 10px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
