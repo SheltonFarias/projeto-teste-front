@@ -8,7 +8,7 @@
   min-height: 100vh;
 }
 
-.container-title {
+.logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
   z-index: 1;
 }
 
-.container-title {
+.logo {
   i {
     font-size: 1.8rem;
     transform: rotate(-15deg);
