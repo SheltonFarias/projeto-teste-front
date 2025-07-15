@@ -26,235 +26,227 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <div class="container">
-      <aside class="sidebar">
-        <div class="logo">
-          <i class="fa-solid fa-face-laugh-wink"></i>
-          <h2 class="title">SB ADMIN ²</h2>
-        </div>
-        <ul class="list">
-          <hr>
-          <li class="dashboard box-list">
-            <i class="fa-solid fa-gauge-high"></i>
-            <span>Dashboard</span>
-          </li>
-          <hr>
-          <span class="list-classification">INTERFACE</span>
-          <li class="components box-list">
-            <i class="fa-solid fa-gear"></i>
-            <span>Components</span>
-          </li>
-          <li class="utilities box-list">
-            <i class="fa-solid fa-wrench"></i>
-            <span>utilities</span>
-          </li>
-          <hr>
-          <span class="list-classification">ADDONS</span>
-          <li class="pages box-list">
-            <i class="fa-solid fa-folder"></i>
-            <span>Pages</span>
-          </li>
-          <li class="charts box-list">
-            <i class="fa-solid fa-chart-area"></i>
-            <span>Charts</span>
-          </li>
-          <li class="tables box-list">
-            <i class="fa-solid fa-table"></i>
-            <span>Tables</span>
-          </li>
-          <hr>
-        </ul>
-        <div class="container-btn">
-          <button class="btn-sidebar">
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-        </div>
-      </aside>
-      <div class="second-container">
-        <nav class="navbar">
-          <div class="container-nav">
-            <form action="" class="form-search">
-              <input type="text" placeholder="Search for..." />
-              <button class="search">
-                <i class="bi bi-search"></i>
-              </button>
-            </form>
-          </div>
-          <div class="compenents-user">
-            <div class="notification-icons">
-              <i class="bi bi-bell-fill"></i>
-              <i class="bi bi-envelope-fill"></i>
-            </div>
-            <div class="user">
-              <p>Douglas McGee</p>
-              <img
-                class="img-profile"
-                src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_profile.svg
-              "
-                alt="img-profile"
-              />
-            </div>
-          </div>
-        </nav>
-        <main class="flex-column">
-          <article class="description-page">
-            <h1>Tables</h1>
-            <p>
-              DataTables is a third party plugin that is used to generate the demo
-              table below. For more information about DataTables, please visit the
-              <a href="">official DataTables documentation</a>
-            </p>
-          </article>
-          <div class="table">
-            <div class="datatables-example">
-              <p>DataTables Example</p>
-            </div>
-            <div>
-              <div class="amount-records">
-                <div class="records">
-                  <label>
-                    Show
-                    <select class="number-page" name="" id="">
-                      <option value="10">10</option>
-                      <option value="25">25</option>
-                      <option value="50">50</option>
-                      <option value="100">100</option>
-                    </select>
-                    entries
-                  </label>
-                </div>
-                <div class="filter-records">
-                  <label>
-                    Search:
-                    <input type="text" />
-                  </label>
-                </div>
-              </div>
-              <div class="result-table">
-                <table border="1" class="table">
-                  <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>Airi Satou</th>
-                      <th>Accountant</th>
-                      <th>Tokyo</th>
-                      <th>33</th>
-                      <th>2008/11/28</th>
-                      <th>$162,700</th>
-                    </tr>
-                    <tr>
-                      <th>Angelica Ramos</th>
-                      <th>Chief Executive Officer (CEO)</th>
-                      <th>London</th>
-                      <th>47</th>
-                      <th>2009/10/09</th>
-                      <th>$1,200,000</th>
-                    </tr>
-                    <tr>
-                      <th>Ashton Cox</th>
-                      <th>Junior Technical Author</th>
-                      <th>San Francisco</th>
-                      <th>66</th>
-                      <th>2009/01/12</th>
-                      <th>$86,000</th>
-                    </tr>
-                    <tr>
-                      <th>Bradley Greer</th>
-                      <th>Software Engineer</th>
-                      <th>London</th>
-                      <th>41</th>
-                      <th>2012/10/13</th>
-                      <th>$132,000</th>
-                    </tr>
-                    <tr>
-                      <th>Brenden Wagner</th>
-                      <th>Software Engineer</th>
-                      <th>San Francisco</th>
-                      <th>28</th>
-                      <th>2011/06/07</th>
-                      <th>$206,850</th>
-                    </tr>
-                    <tr>
-                      <th>Brielle Williamson</th>
-                      <th>Integration Specialist</th>
-                      <th>New York</th>
-                      <th>61</th>
-                      <th>2012/12/02</th>
-                      <th>$372,000</th>
-                    </tr>
-                    <tr>
-                      <th>Bruno Nash</th>
-                      <th>Software Engineer</th>
-                      <th>London</th>
-                      <th>38</th>
-                      <th>2011/05/03</th>
-                      <th>$163,500</th>
-                    </tr>
-                    <tr>
-                      <th>Caesar Vance</th>
-                      <th>Pre-Sales Support</th>
-                      <th>New York</th>
-                      <th>21</th>
-                      <th>2011/12/12</th>
-                      <th>$106,450</th>
-                    </tr>
-                    <tr>
-                      <th>Cara Stevens</th>
-                      <th>Sales Assistant</th>
-                      <th>New York</th>
-                      <th>46</th>
-                      <th>2011/12/06</th>
-                      <th>$145,600</th>
-                    </tr>
-                    <tr>
-                      <th>Cedric Kelly</th>
-                      <th>Senior Javascript Developer</th>
-                      <th>Edinburgh</th>
-                      <th>22</th>
-                      <th>2012/03/29</th>
-                      <th>$433,060</th>
-                    </tr>
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="btn-page-table">
-                <div><p>Showing 1 to 10 of 57 entries</p></div>
-                <div class="pagination">
-                  <ul>
-                    <li><a href="" class="previous">Previous</a></li>
-                    <li><a href="" class="numberPage">1</a></li>
-                    <li><a href="" class="numberPage">2</a></li>
-                    <li><a href="" class="numberPage">3</a></li>
-                    <li><a href="" class="numberPage">4</a></li>
-                    <li><a href="" class="numberPage">5</a></li>
-                    <li><a href="" class="next">Next</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-        <footer class="footer">
-          <p>Copyright Your Website 2020</p>
-        </footer>
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fa-solid fa-face-laugh-wink"></i>
+        <h2 class="title">SB ADMIN ²</h2>
       </div>
+      <ul class="list">
+        <hr />
+        <li class="dashboard box-list">
+          <i class="fa-solid fa-gauge-high"></i>
+          <span>Dashboard</span>
+        </li>
+        <hr />
+        <span class="list-classification">INTERFACE</span>
+        <li class="components box-list">
+          <i class="fa-solid fa-gear"></i>
+          <span>Components</span>
+        </li>
+        <li class="utilities box-list">
+          <i class="fa-solid fa-wrench"></i>
+          <span>utilities</span>
+        </li>
+        <hr />
+        <span class="list-classification">ADDONS</span>
+        <li class="pages box-list">
+          <i class="fa-solid fa-folder"></i>
+          <span>Pages</span>
+        </li>
+        <li class="charts box-list">
+          <i class="fa-solid fa-chart-area"></i>
+          <span>Charts</span>
+        </li>
+        <li class="tables box-list">
+          <i class="fa-solid fa-table"></i>
+          <span>Tables</span>
+        </li>
+        <hr />
+      </ul>
+      <div class="container-btn">
+        <button class="btn-sidebar">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+      </div>
+    </aside>
+    <div class="main-content">
+      <header class="navbar">
+        <div class="container-nav">
+          <form action="" class="form-search">
+            <input type="text" placeholder="Search for..." />
+            <button class="search">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="compenents-user">
+          <div class="notification-icons">
+            <i class="bi bi-bell-fill"></i>
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <div class="user">
+            <p>Douglas McGee</p>
+            <img
+              class="img-profile"
+              src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_profile.svg
+              "
+              alt="img-profile"
+            />
+          </div>
+        </div>
+      </header>
+      <main class="flex-column">
+        <article class="description-page">
+          <h1>Tables</h1>
+          <p>
+            DataTables is a third party plugin that is used to generate the demo
+            table below. For more information about DataTables, please visit the
+            <a href="">official DataTables documentation</a>
+          </p>
+        </article>
+        <div class="datatables-example">
+          <p>DataTables Example</p>
+        </div>
+        <div>
+          <div class="amount-records">
+              <label class="records">
+                Show
+                <select class="number-page" name="" id="">
+                  <option value="10">10</option>
+                  <option value="25">25</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                </select>
+                entries
+              </label>
+              <label class="filter-records">
+                Search:
+                <input type="text" />
+              </label>
+          </div>
+          <div class="result-table">
+            <table border="1" class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Airi Satou</th>
+                  <th>Accountant</th>
+                  <th>Tokyo</th>
+                  <th>33</th>
+                  <th>2008/11/28</th>
+                  <th>$162,700</th>
+                </tr>
+                <tr>
+                  <th>Angelica Ramos</th>
+                  <th>Chief Executive Officer (CEO)</th>
+                  <th>London</th>
+                  <th>47</th>
+                  <th>2009/10/09</th>
+                  <th>$1,200,000</th>
+                </tr>
+                <tr>
+                  <th>Ashton Cox</th>
+                  <th>Junior Technical Author</th>
+                  <th>San Francisco</th>
+                  <th>66</th>
+                  <th>2009/01/12</th>
+                  <th>$86,000</th>
+                </tr>
+                <tr>
+                  <th>Bradley Greer</th>
+                  <th>Software Engineer</th>
+                  <th>London</th>
+                  <th>41</th>
+                  <th>2012/10/13</th>
+                  <th>$132,000</th>
+                </tr>
+                <tr>
+                  <th>Brenden Wagner</th>
+                  <th>Software Engineer</th>
+                  <th>San Francisco</th>
+                  <th>28</th>
+                  <th>2011/06/07</th>
+                  <th>$206,850</th>
+                </tr>
+                <tr>
+                  <th>Brielle Williamson</th>
+                  <th>Integration Specialist</th>
+                  <th>New York</th>
+                  <th>61</th>
+                  <th>2012/12/02</th>
+                  <th>$372,000</th>
+                </tr>
+                <tr>
+                  <th>Bruno Nash</th>
+                  <th>Software Engineer</th>
+                  <th>London</th>
+                  <th>38</th>
+                  <th>2011/05/03</th>
+                  <th>$163,500</th>
+                </tr>
+                <tr>
+                  <th>Caesar Vance</th>
+                  <th>Pre-Sales Support</th>
+                  <th>New York</th>
+                  <th>21</th>
+                  <th>2011/12/12</th>
+                  <th>$106,450</th>
+                </tr>
+                <tr>
+                  <th>Cara Stevens</th>
+                  <th>Sales Assistant</th>
+                  <th>New York</th>
+                  <th>46</th>
+                  <th>2011/12/06</th>
+                  <th>$145,600</th>
+                </tr>
+                <tr>
+                  <th>Cedric Kelly</th>
+                  <th>Senior Javascript Developer</th>
+                  <th>Edinburgh</th>
+                  <th>22</th>
+                  <th>2012/03/29</th>
+                  <th>$433,060</th>
+                </tr>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="btn-page-table">
+            <div><p>Showing 1 to 10 of 57 entries</p></div>
+            <div class="pagination">
+              <ul>
+                <li><a href="" class="previous">Previous</a></li>
+                <li><a href="" class="numberPage">1</a></li>
+                <li><a href="" class="numberPage">2</a></li>
+                <li><a href="" class="numberPage">3</a></li>
+                <li><a href="" class="numberPage">4</a></li>
+                <li><a href="" class="numberPage">5</a></li>
+                <li><a href="" class="next">Next</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>Copyright Your Website 2020</p>
+      </footer>
     </div>
     <script src="./js/main.js"></script>
   </body>
