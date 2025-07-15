@@ -1,7 +1,5 @@
 .navbar {
   background-color: #fff;
-  /* background-color: aqua; */
-  display: flex;
   align-items: center;
   justify-content: space-between;
   height: 4.375rem;

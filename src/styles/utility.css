@@ -6,6 +6,18 @@
   flex-direction: column;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .text-white {
   color: #fff;
 }
@@ -24,16 +36,4 @@
 
 .text-white-opacity {
   color: rgba(255, 255, 255, 0.3);
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
