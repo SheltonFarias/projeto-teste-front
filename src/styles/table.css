@@ -41,6 +41,12 @@
   list-style: none;
 }
 
+.pagination li a:hover {
+   background-color: #4e73df;
+   color: #fff;
+   transition: 0.3s;
+}
+
 .pagination a {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
