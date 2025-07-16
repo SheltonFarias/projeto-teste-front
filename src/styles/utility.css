@@ -6,34 +6,11 @@
   flex-direction: column;
 }
 
-.items-center {
-  align-items: center;
+:root{
+  --text-white: #fff;
+  --text-gray: #858796;
+  --text-primary: #4e73df;
+  --text-dark: #5a5c69;
+  --text-white-opacity: rgba(255, 255, 255, 0.3);
 }
 
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.text-white {
-  color: #fff;
-}
-
-.text-gray {
-  color: #858796;
-}
-
-.text-primary {
-  color: #4e73df;
-}
-
-.text-dark {
-  color: #5a5c69;
-}
-
-.text-white-opacity {
-  color: rgba(255, 255, 255, 0.3);
-}
