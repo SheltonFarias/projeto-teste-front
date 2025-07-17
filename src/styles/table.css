@@ -1,3 +1,8 @@
+.description-table {
+  text-decoration: none;
+  color: #224abe;
+}
+
 .number-results {
   padding-top: 0.25rem;
   padding-right: 8px;
@@ -34,17 +39,10 @@
   border-color: inherit;
 }
 
-
 /* .table-page */
 .pagination {
   display: flex;
   list-style: none;
-}
-
-.pagination li a:hover {
-   background-color: #4e73df;
-   color: #fff;
-   transition: 0.3s;
 }
 
 .pagination a {
@@ -53,6 +51,12 @@
   color: #4e73df;
   background-color: #fff;
   border: 1px solid #dddfeb;
+}
+
+.pagination li a:hover {
+  transition: 0.3s;
+  background-color: #eaecf4;
+  border-color: #dddfeb;
 }
 
 .table-pages {
