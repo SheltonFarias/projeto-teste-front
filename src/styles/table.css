@@ -5,12 +5,11 @@
 
 .datatables-example {
   color: #4e73df;
-  padding: 16px 20px;
   font-weight: 700;
   font: 16px;
   border-radius: calc(0.35rem - 1px) calc(0.35rem - 1px) 0 0;
   padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
+  margin-top: 22px;
   background-color: #f8f9fc;
   border-bottom: 1px solid #e3e6f0;
 }
@@ -24,30 +23,33 @@
   border-radius: 5px;
 }
 
-/* result-table */
-.table {
-  padding: 0 24px;
-  background-color: #fff;
+.results-per-page {
+  justify-content: space-between;
+}
+
+.content {
+  width: auto;
+  padding: 0 14px;
+  background-color: aqua;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
   color: #858796;
 }
 
-.table th {
+.table-container {
+  background-color:#fff;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  background: whitesmoke;
+}
+
+table th {
   padding: 12px 30px 12px 12px;
 }
 
-.table td {
-  border: 1px solid #e3e6f0;
-  padding: 0.75rem;
-  vertical-align: top;
-}
 
-.table tr {
-  display: table-row;
-  vertical-align: inherit;
-  unicode-bidi: isolate;
-  border-color: inherit;
-}
 
 /* .table-page */
 .pagination {
@@ -70,6 +72,7 @@
 }
 
 .table-pages {
+  margin: 20px 0 15px 0;
   display: flex;
   justify-content: space-between;
 }
