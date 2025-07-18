@@ -3,6 +3,18 @@
   color: #224abe;
 }
 
+.datatables-example {
+  color: #4e73df;
+  padding: 16px 20px;
+  font-weight: 700;
+  font: 16px;
+  border-radius: calc(0.35rem - 1px) calc(0.35rem - 1px) 0 0;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+}
+
 .number-results {
   padding-top: 0.25rem;
   padding-right: 8px;
@@ -14,11 +26,9 @@
 
 /* result-table */
 .table {
+  padding: 0 24px;
   background-color: #fff;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
-  margin-top: 6px;
-  margin-bottom: 6px;
-  border-spacing: 0;
   color: #858796;
 }
 

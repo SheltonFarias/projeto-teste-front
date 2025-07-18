@@ -2,7 +2,10 @@
   background-color: #fff;
   align-items: center;
   justify-content: space-between;
+  height: 50px;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  padding: 10px 16px;
+  margin: 0 0 16px;
 }
 
 /* Search */
@@ -10,7 +13,7 @@
   border-color: transparent;
   background-color: #f7f8fb;
   width: 300px;
-  height: 20px;
+  height: 25px;
   padding: 6px 12px;
   border-radius: 5px;
 }
@@ -20,41 +23,65 @@
   border-radius: 0 5px 5px 0;
   border: #4e73df;
   width: 38px;
-  height: 35px;
+  height: 34px;
 }
 
 .btn-search i {
   color: #fff;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /* components-user */
 .notification-icons {
   display: flex;
-  padding-right: 20px;
-  margin-right: 20px;
   gap: 25px;
-  border-right: 0.5px solid #b7b9cc;
 }
 
-.notification-icons i {
+.settings-divider {
+  margin: auto 26px;
+  height: 38px;
+  border-right: 0.5px solid #e3e6f0;
+}
+
+.notification-icons a {
+  position: relative;
   color: #b7b9cc;
   display: flex;
   align-items: center;
 }
 
+.notifications {
+  color: #fff;
+  background-color: #e74a3b;
+  position: absolute;
+  transform: scale(0.7);
+  transform-origin: top right;
+  left: 6px;
+  margin-bottom: 4px;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  vertical-align: baseline;
+  border-radius: 0.35rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .user {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
 
 .user p {
   color: #858796;
-  font-size: 12px;
+  font-size: 12.8px;
 }
 
 .img-profile {
-  width: 27px;
-  height: 27px;
+  width: 32px;
+  height: 32px;
 }

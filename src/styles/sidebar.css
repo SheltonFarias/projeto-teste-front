@@ -13,18 +13,21 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 800;
-  padding: 24px 16px;
+  padding: 18px 16px;
   text-align: center;
   letter-spacing: 0.05rem;
   z-index: 1;
 }
 
 .first-hr {
-  margin-bottom: 3px;
+  margin: 1.5px 16px 1.5px 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
-hr {
-  margin: 0 0 11px 16px;
+hr:not(:first-child) {
+  margin: 0 16px 11px 16px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
 .dashboard {
@@ -37,7 +40,7 @@ hr {
   align-items: center;
   text-align: left;
   width: 100%;
-  padding: 16px;
+  padding: 18px 16px;
   width: 175px;
 }
 
@@ -57,7 +60,7 @@ hr {
 }
 
 .logo h2 {
-  font-size: 1rem;
+  font-size: 16px;
   color: #fff;
   font-weight: 800;
 }
@@ -74,8 +77,8 @@ hr {
 
 .btn-sidebar {
   border-radius: 50px;
-  width: 35px;
-  height: 35px;
+  width: 37px;
+  height: 37px;
   border-radius: 50%;
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.25);
@@ -96,9 +99,4 @@ hr {
   font-size: 10px;
   font-weight: 800;
   color: rgba(255, 255, 255, 0.3);
-}
-
-hr {
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
