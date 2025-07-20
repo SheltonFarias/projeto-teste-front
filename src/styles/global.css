@@ -5,6 +5,7 @@
 }
 
 body {
+  font-size: 18px;
   font-family: "Nunito", sans-serif;
   background-color: #f8f9fc;
   position: relative;
@@ -15,4 +16,6 @@ a {
   color: #fff;
 }
 
-
+.layout {
+  min-height: 100vh;
+}
