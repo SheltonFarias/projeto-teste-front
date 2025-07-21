@@ -2,19 +2,23 @@
   background-color: #fff;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 50px;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
-  padding: 10px 24px;
+  padding: 8px 16px;
   margin: 0 0 24px;
 }
 
 /* Search */
+.search {
+  margin-left: 12px;
+}
+
 .form-search input {
   border-color: transparent;
   background-color: #f7f8fb;
   width: 300px;
   height: 25px;
-  padding: 6px 12px;
+  padding: 6px 16px;
   border-radius: 5px;
 }
 
@@ -33,9 +37,14 @@
 }
 
 /* components-user */
+.components-user {
+  margin-right: 24px;
+}
+
 .notification-icons {
   display: flex;
-  gap: 25px;
+  gap: 32px;
+  padding-right: 7px;
 }
 
 .settings-divider {
@@ -75,6 +84,7 @@
 }
 
 .user {
+  padding: 0 12px 0 5px;
   display: flex;
   align-items: center;
   gap: 8px;

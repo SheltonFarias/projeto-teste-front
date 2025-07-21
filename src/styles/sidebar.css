@@ -21,21 +21,23 @@
 }
 
 .first-hr {
-  margin: 1.5px 16px 1.5px 16px;
+  margin: 0 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
 hr:not(:first-child) {
-  margin: 0 16px 11px 16px;
+  margin: 0 16px 16px;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
+
 
 .dashboard {
   margin-bottom: 3px;
 }
 
 .box-list a {
+  position: relative;
   display: flex;
   gap: 6px;
   align-items: center;
@@ -43,6 +45,16 @@ hr:not(:first-child) {
   width: 100%;
   padding: 18px 16px;
   width: 175px;
+}
+
+.box-list .arrow::after {
+  position: absolute;
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 11px;
+  font-weight:bold;
+  color: rgba(255, 255, 255, .5);
+  right: 13px;
 }
 
 .box-list a span {

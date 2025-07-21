@@ -6,6 +6,17 @@
   color: #5a5c69;
 }
 
+.description-page h1 {
+  margin-bottom: 8px;
+  font-size: 27px;
+  font-weight: 500;
+  color: #5a5c69;
+}
+
+.description-page p {
+  color: #858796;
+}
+
 .description-table {
   text-decoration: none;
   color: #224abe;
@@ -58,7 +69,7 @@ table {
 thead tr th {
   border-bottom: 4px solid #e3e6f0 !important;
   text-align: start;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 th,
