@@ -47,7 +47,7 @@
 }
 
 .content {
-  padding: 0 14px;
+  padding: 0 14px 25px 14px;
   background-color: #eeeef2;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
   color: #858796;
@@ -66,8 +66,22 @@ table {
   border-collapse: collapse;
 }
 
+/* add arrow */
+
+.col-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-title label {
+  display: flex;
+  gap: 0.8px;
+  opacity: .3;
+}
+
 thead tr th {
-  border-bottom: 4px solid #e3e6f0 !important;
+  border-top: 2px solid #e3e6f0 !important;
+  border-bottom: 3px solid #e3e6f0 !important;
   text-align: start;
   font-weight: 700;
 }
@@ -84,7 +98,11 @@ td {
 }
 
 th {
-  padding: 12px 30px 12px 12px;
+  padding: 12px 7px 12px 12px;
+}
+
+.last-line {
+  border-bottom: 2px solid #e3e6f0 !important;
 }
 
 /* .table-page */
