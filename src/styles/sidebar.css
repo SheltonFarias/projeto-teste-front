@@ -39,7 +39,7 @@ hr:not(:first-child) {
 .box-list a {
   position: relative;
   display: flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
   text-align: left;
   width: 100%;

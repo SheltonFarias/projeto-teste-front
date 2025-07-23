@@ -14,12 +14,13 @@
 }
 
 .description-page p {
+  font-size: 16.3px;
   color: #858796;
 }
 
 .description-table {
   text-decoration: none;
-  color: #224abe;
+  color: #4e73df;
 }
 
 .datatables-example {
@@ -34,20 +35,44 @@
 }
 
 .number-results {
-  padding-top: 0.25rem;
-  padding-right: 8px;
-  padding-bottom: 0.25rem;
-  padding-left: 0.3rem;
-  font-size: 0.875rem;
+  appearance: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
   border-radius: 5px;
+  padding: 6.5px 24px 6px 12.5px; /* espaço à direita para o ícone */
+  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%235a5c69' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") 
+  right 0.75rem center / 8px 10px no-repeat;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #5a5c69;
+  background-color: #fff;
+  margin-bottom: 13px;
 }
 
 .results-per-page {
   justify-content: space-between;
 }
 
+.filter-records input {
+  margin-left: 8px;
+  height: 20px;
+  border-radius: 3.2px;
+  padding: 4.2px 8px;
+  border: 1px solid #d1d3e2;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.filter-records input:focus {
+  border-left: 1px solid #86b7fe;
+  border-bottom: 1px solid #86b7fe;
+  box-shadow: -3px 3px 4px rgba(13, 110, 253, 0.25); /* esquerda e baixo com blur */
+  outline: none;
+}
+
+
+/* Table */
 .content {
-  padding: 0 14px 25px 14px;
+  padding: 0 24px 25px 24px;
   background-color: #eeeef2;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
   color: #858796;
@@ -66,8 +91,6 @@ table {
   border-collapse: collapse;
 }
 
-/* add arrow */
-
 .col-title {
   display: flex;
   justify-content: space-between;
@@ -76,7 +99,7 @@ table {
 .col-title label {
   display: flex;
   gap: 0.8px;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 thead tr th {
