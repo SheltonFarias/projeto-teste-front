@@ -1,115 +1,14 @@
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  width: 250px !important;
-  background: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
-  color: rgba(255, 255, 255, 0.8);
+  width: 224px;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
 }
 
-.logo {
-  align-items: center;
-  gap: 15px;
-  text-decoration: none;
-  font-size: 45px !important;
-  font-weight: 800;
-  padding: 18px 16px;
-  text-align: center;
-  letter-spacing: 0.05rem;
-  z-index: 1;
+.box-list {
+  padding: 16px;
 }
 
-.first-hr {
-  margin: 0 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
-}
-
-hr:not(:first-child) {
-  margin: 0 16px 9px;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
-}
-
-
-.dashboard {
-  margin-bottom: 3px;
-}
-
-.box-list a {
-  position: relative;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  text-align: left;
-  width: 100%;
-  padding: 17px 16px;
-  width: 175px;
-}
-
-.box-list .arrow::after {
-  position: absolute;
-  content: '\f054';
-  font-family: 'Font Awesome 5 Free';
-  font-size: 11px;
-  font-weight:bold;
-  color: rgba(255, 255, 255, .5);
-  right: 13px;
-}
-
-.box-list a span {
-  font-size: 13.6px;
-  color: #ffffffcc;
-}
-
-.box-list a i {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.logo i {
-  font-size: 32px;
-  transform: rotate(-15deg);
-  color: #fff;
-}
-
-.logo h2 {
-  font-size: 16px;
-  color: #fff;
-  font-weight: 800;
-}
-
-.list {
-  list-style: none;
-  text-align: start;
-  font-size: 14px;
-}
-
-.list-classification {
-  padding: 0 16px;
-}
-
-.btn-sidebar {
-  border-radius: 50px;
-  width: 37px;
-  height: 37px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.btn-sidebar i {
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 1500;
-  font-size: 12px;
-}
-
-.btn-sidebar:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  cursor: pointer;
-}
-
-.list-classification {
-  font-size: 10px;
-  font-weight: 800;
-  color: rgba(255, 255, 255, 0.3);
+hr {
+  border-top: 1px solid rgba(255, 255, 255, .15);
+  margin: 0 16px 16px;
 }
