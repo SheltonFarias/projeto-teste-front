@@ -1,5 +1,5 @@
 .main-contant {
-  width: 100%;
+  flex: 1;
 }
 
 .topBar {
@@ -7,3 +7,7 @@
   background-color: aqua;
 }
 
+.user img {
+  height: 32px;
+  width: 32px;
+}

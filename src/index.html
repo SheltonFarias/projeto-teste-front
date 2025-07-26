@@ -1,39 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>alter layout</title>
+    <link
+      rel="shortcut icon"
+      href="https://startbootstrap.com/favicon.png
+"
+      type="image/x-icon"
+    />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>SB Admin 2 - Theme Preview - Start Bootstrap</title>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body class="flex">
     <aside class="sidebar">
-      <div class="logo">
-        <i></i>
+      <div class="logo flex">
+        <i class="fas fa-laugh-wink"></i>
         <p>SB ADMIN ²</p>
       </div>
-      <hr />
       <ul class="navegation-list">
-        <li class="box-list"><p>Dashboard</p></li>
         <hr />
-        <span>INTERFACE</span>
-        <li class="box-list"><p>Components</p></li>
-        <li class="box-list"><p>Utilities</p></li>
-        <span>ADDONS</span>
-        <li class="box-list"><p>Pages</p></li>
-        <li class="box-list"><p>Charts</p></li>
-        <li class="box-list"><p>Tables</p></li>
+        <li class="box-list">
+          <a href="" class="dashboard">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <hr />
+        <span class="sub-title">INTERFACE</span>
+        <li class="box-list">
+          <a href="" class="list">
+            <i class="fas fa-fw fa-cog"></i>
+            <p>Components</p>
+          </a>
+        </li>
+        <li class="box-list">
+          <a href="" class="list">
+            <i class="fas fa-fw fa-wrench"></i>
+            <p>Utilities</p>
+          </a>
+        </li>
+        <hr>
+        <span class="sub-title">ADDONS</span>
+        <li class="box-list">
+          <a href="" class="list">
+            <i class="fas fa-fw fa-folder"></i>
+            <p>Pages</p>
+          </a>
+        </li>
+        <li class="box-list">
+          <a href="">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <p>Charts</p>
+          </a>
+        </li>
+        <li class="box-list">
+          <a href="">
+            <i class="fas fa-fw fa-table"></i>
+            <p>Tables</p>
+          </a>
+        </li>
       </ul>
+      <hr>
+      <button class="btn-sidebar"><i class="fa-solid fa-angle-left"></i></button>
     </aside>
     <div class="main-contant">
-      <header class="topBar">
+      <header class="topBar flex">
         <div class="search">
           <input type="text" placeholder="Search for..." />
           <button class="btn-search">
-            <i></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
-        <div class="user"></div>
+        <div class="user-information">
+          <section class="icons-notifications">
+            <i class="fas fa-bell fa-fw"></i>
+            <i class="fas fa-envelope fa-fw"></i>
+          </section>
+          <section class="user">
+            <span>Douglas McGee</span>
+            <img src="	https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_profile.svg" alt="">
+          </section>
+        </div>
       </header>
     </div>
   </body>
