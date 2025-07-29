@@ -3,8 +3,18 @@
 }
 
 .topBar {
+  justify-content: space-between;
   padding: 8px 16px;
   background-color: aqua;
+}
+
+.user-information {
+  gap: 32px;
+  align-items: center;
+}
+
+.user {
+  align-items: center;
 }
 
 .user img {
