@@ -4,17 +4,56 @@
 
 .topBar {
   justify-content: space-between;
+  align-items: center;
   padding: 8px 16px;
-  background-color: aqua;
+  height: 56px;
+  font-size: 13.6px;
+  background-color: #fff;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)
+}
+
+.search input{
+  padding: 6px 12px;
+  width: 366px;
+  height: 30px;
+}
+
+.search .btn-search {
+  height: 40px;
+  width: 38px;
+  background-color: var(--text-primary);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.btn-search i {
+  color: #fff;
 }
 
 .user-information {
-  gap: 32px;
+  gap: 16px;
   align-items: center;
+}
+
+.division {
+  border-right: 1px solid #e3e6f0;  
+  height: 40px;
+}
+
+.icons-notifications i{
+  color: #d1d3e2;
+  font-size: 16px;
+  padding: 0 12px;
 }
 
 .user {
   align-items: center;
+  padding: 0 12px;
+}
+
+.user span {
+  color: #858796;
+  margin-right: 8px;
 }
 
 .user img {
