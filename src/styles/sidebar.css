@@ -77,6 +77,6 @@ hr:first-child {
   border-radius: 50%;
   background-color: #FFFFFF33;
   color: var(--text-white-opacity);
-  margin-left: 35%;
+  margin-left: 90px;
   margin-top: 5px;
 }
