@@ -15,7 +15,7 @@
 .search input{
   padding: 6px 12px;
   margin-left: 12px;
-  width: 366px;
+  width: 345px;
   height: 26px;
   border-radius: 8px;
   background-color: #f8f9fc;
@@ -30,7 +30,7 @@
 .search .btn-search {
   height: 40px;
   width: 38px;
-  background-color: var(--text-primary);
+  background-color: #4e73df;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: -10px;
@@ -47,7 +47,7 @@
 
 .division {
   border-right: 1px solid #e3e6f0;  
-  height: 37px;
+  height: 40px;
 }
 
 .icons-notifications i{
