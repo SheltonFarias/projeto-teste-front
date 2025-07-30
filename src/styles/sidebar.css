@@ -31,6 +31,10 @@ hr:first-child {
   letter-spacing: 0.8px;
 }
 
+.logo p sup{
+  font-size: 12px;
+}
+
 .sub-title {
   padding: 0 16px;
   font-size: 10.4px;
@@ -76,7 +80,7 @@ hr:first-child {
   height: 40px;
   border-radius: 50%;
   background-color: #FFFFFF33;
-  color: var(--text-white-opacity);
+  color: rgba(255, 255, 255, .4);
   margin-left: 90px;
   margin-top: 5px;
 }
