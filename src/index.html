@@ -19,93 +19,109 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
     <title>SB Admin 2 - Theme Preview - Start Bootstrap</title>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body class="flex">
     <aside class="sidebar">
       <div class="logo flex">
-        <i class="fas fa-laugh-wink"></i>
-        <p>SB ADMIN <sup>2</sup></p>
+        <i class="fas fa-laugh-wink icon-logo"></i>
+        <p class="title-page">SB ADMIN <sup class="number-title">2</sup></p>
       </div>
       <ul class="navegation-list">
-        <hr />
+        <hr class="division-list" />
         <li class="box-list">
-          <a href="" class="dashboard">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <p>Dashboard</p>
+          <a href="" class="dashboard item-list">
+            <i class="fas fa-fw fa-tachometer-alt icon-item"></i>
+            <p class="name-item">Dashboard</p>
           </a>
         </li>
         <hr />
         <span class="sub-title">INTERFACE</span>
         <li class="box-list">
-          <a href="" class="list">
-            <i class="fas fa-fw fa-cog"></i>
-            <p>Components</p>
+          <a href="" class="arrow-item item-list">
+            <i class="fas fa-fw fa-cog icon-item"></i>
+            <p class="name-item">Components</p>
           </a>
         </li>
         <li class="box-list">
-          <a href="" class="list">
-            <i class="fas fa-fw fa-wrench"></i>
-            <p>Utilities</p>
+          <a href="" class="arrow-item item-list">
+            <i class="fas fa-fw fa-wrench icon-item"></i>
+            <p class="name-item">Utilities</p>
           </a>
         </li>
-        <hr />
+        <hr class="division-list" />
         <span class="sub-title">ADDONS</span>
         <li class="box-list">
-          <a href="" class="list">
-            <i class="fas fa-fw fa-folder"></i>
-            <p>Pages</p>
+          <a href="" class="arrow-item item-list">
+            <i class="fas fa-fw fa-folder icon-item"></i>
+            <p class="name-item">Pages</p>
           </a>
         </li>
         <li class="box-list">
-          <a href="">
-            <i class="fas fa-fw fa-chart-area"></i>
-            <p>Charts</p>
+          <a href="" class="item-list">
+            <i class="fas fa-fw fa-chart-area icon-item"></i>
+            <p class="name-item">Charts</p>
           </a>
         </li>
         <li class="box-list">
-          <a href="">
-            <i class="fas fa-fw fa-table"></i>
-            <p>Tables</p>
+          <a href="" class="item-list">
+            <i class="fas fa-fw fa-table icon-item"></i>
+            <p class="name-item">Tables</p>
           </a>
         </li>
       </ul>
-      <hr />
+      <hr class="division-list" />
       <button class="btn-sidebar">
         <i class="fa-solid fa-angle-left"></i>
       </button>
     </aside>
     <div class="main-contant">
-      <header class="topBar flex">
+      <header class="top-bar flex">
         <div class="search">
-          <input type="text" placeholder="Search for..." />
+          <input type="text" placeholder="Search for..." class="input-search" />
           <button class="btn-search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass icon-search"></i>
           </button>
         </div>
         <div class="user-information flex">
           <section class="icons-notifications">
-            <a href="">
-              <i class="fas fa-bell fa-fw"></i>
-              <span class="notification-alert">3+</span>
+            <a href="" class="notification-box">
+              <i class="fas fa-bell fa-fw icon-notification"></i>
+              <span class="bagger">3+</span>
             </a>
-            <a href="">
-              <i class="fas fa-envelope fa-fw"></i>
-              <span class="notification-alert">7</span>
+            <a href="" class="notification-box">
+              <i class="fas fa-envelope fa-fw icon-notification"></i>
+              <span class="bagger">7</span>
             </a>
           </section>
           <section class="division">.</section>
           <section class="user flex">
-            <span>Douglas McGee</span>
+            <span class="name-user">Douglas McGee</span>
             <img
               src="	https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_profile.svg"
               alt=""
+              class="img-user"
             />
           </section>
         </div>
       </header>
+      <main class="table-container">
+        <h1 class="title-main">Tables</h1>
+        <p class="description">
+          DataTables is a third party plugin that is used to generate the demo
+          table below. For more information about DataTables, please visit the
+          <a href="" class="highlighted">official DataTables documentation.</a>
+        </p>
+        <div class="title-table">
+          <p>DataTables Example</p>
+        </div>
+        <section class="table">
+          <div></div>
+          <table></table>
+          <div></div>
+        </section>
+      </main>
     </div>
   </body>
 </html>

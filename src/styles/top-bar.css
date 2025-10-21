@@ -2,17 +2,18 @@
   flex: 1;
 }
 
-.topBar {
+.top-bar {
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
   height: 58px;
   font-size: 13.6px;
   background-color: #fff;
-  box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+  margin-bottom: 24px;
 }
 
-.search input{
+.input-search {
   padding: 6px 12px;
   margin-left: 12px;
   width: 345px;
@@ -21,13 +22,13 @@
   background-color: #f8f9fc;
 }
 
-.search input:focus {
-  box-shadow: 0 0 0 3.2px rgba(78, 115, 223, .25);
+.input-search:focus {
+  box-shadow: 0 0 0 3.2px rgba(78, 115, 223, 0.25);
   border-right: none;
   outline: none;
 }
 
-.search .btn-search {
+.btn-search {
   height: 40px;
   width: 38px;
   background-color: #4e73df;
@@ -36,7 +37,7 @@
   margin-left: -10px;
 }
 
-.btn-search i {
+.icon-search {
   color: #fff;
 }
 
@@ -46,11 +47,11 @@
 }
 
 .division {
-  border-right: 1px solid #e3e6f0;  
+  border-right: 1px solid #e3e6f0;
   height: 40px;
 }
 
-.icons-notifications i{
+.icon-notification {
   color: #d1d3e2;
   font-size: 16px;
   padding: 0 12px;
@@ -61,15 +62,15 @@
   padding: 0 12px;
 }
 
-.user-information a {
+.notification-box {
   position: relative;
 }
 
-.user-information a:first-child {
+.notification-box:first-child {
   margin-right: 6px;
 }
 
-.notification-alert {
+.bagger {
   position: absolute;
   bottom: 6.5px;
   right: 4px;
@@ -78,18 +79,18 @@
   font-size: 12px;
   border-radius: 5.5px;
   line-height: 1;
-  transform: scale(.7);
+  transform: scale(0.7);
   background-color: #e74a3b;
-  color: #FFF;
+  color: #fff;
 }
 
-.user span {
+.name-user {
   color: #858796;
   margin-right: 8px;
   font-size: 12.8px;
 }
 
-.user img {
+.img-user {
   height: 32px;
   width: 32px;
 }
