@@ -31,3 +31,23 @@ li {
 button {
   cursor: pointer;
 }
+
+table {
+  width: 100%;
+  border: 1px solid #e3e6f0;
+}
+
+th {  
+  border: 1px 1px 2px 1px solid #e3e6f0;
+  border-bottom: 2px solid #e3e6f0;
+}
+
+tr {
+  padding-right: 30px;
+    padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #e3e6f0;
+}

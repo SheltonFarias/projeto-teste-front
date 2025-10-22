@@ -62,3 +62,9 @@
 .control-pagination {
   justify-content: space-between;
 }
+
+.table-content {
+  border-collapse: separate !important;
+  border-spacing: 0;
+  
+}
