@@ -31,17 +31,25 @@
 
 .filter-table {
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.number-per-page {
+  line-height: 1.5;
 }
 
 .number-records {
-  padding: 4px 0 4px 8px;
-  height: 21px;
+  padding: 4px 28px 4px 8px;
   border-radius: 5px;
   font-size: 14px;
   background: #fff
     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%235a5c69' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
     no-repeat right 0.75rem center / 8px 10px;
   appearance: none;
+}
+
+.box-search {
+  color: #858796;
 }
 
 .search-input {
@@ -64,7 +72,6 @@
 
 /* TABLE */
 table {
-  /* width: 100%; */
   color: #858796;
   border-collapse: separate;
   border-spacing: 0;
@@ -92,14 +99,30 @@ td {
   border-bottom: 2px solid #e3e6f0;
 }
 
-
 /* PAGINATION */
+.control-pagination {
+  margin-top: 12px;
+}
+
+.description-page {
+  color: #858796;
+  padding-top: 13.6px;
+}
+
 .page-item {
   padding: 8px 12px;
   background-color: #fff;
   color: #4e73df;
   border: 1px solid #dddfeb;
 }
+
+.page-link {
+  color: #4e73df;
+}
+
+/* .active {
+  background-color: #4e73df;
+} */
 
 .previous {
   border-radius: 5px 0 0 5px;
