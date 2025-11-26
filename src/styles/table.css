@@ -36,7 +36,7 @@
 
 .filter-table {
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .number-per-page {
@@ -90,6 +90,7 @@
   background-color: #fff;
   color: #858796;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  line-height: 1.25;
 }
 
 table {
@@ -110,22 +111,27 @@ table {
 }
 
 .title-column::before {
-  content: "↑";
+  content: "\f176";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; /* ou conforme necessário */
   right: 14px;
 }
 
 .title-column::after {
-  content: "↓";
+  content: "\f175";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; /* se for estilo “solid” */
   right: 7px;
-}
-
-th {
-  width: 224px;
 }
 
 td {
   padding: 12px;
   border: 1px solid #e3e6f0;
+  border-bottom-width: 0;
+}
+
+td:not(:first-child) {
+  border-left-width: 0;
 }
 
 .header-line th,
@@ -134,6 +140,30 @@ td {
   border: 1px solid #e3e6f0;
   border-bottom: 2px solid #e3e6f0;
   text-align: start;
+}
+
+.name-column {
+  width: 185px;
+}
+
+.position-column {
+  width: 263px;
+}
+
+.office-column {
+  width: 142px;
+}
+
+.age-column {
+  width: 80px;
+}
+
+.start-date-column {
+  width: 136px;
+}
+
+.salary-column {
+  width: 138px;
 }
 
 /* PAGINATION */
