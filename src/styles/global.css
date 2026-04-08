@@ -7,7 +7,7 @@
 body {
   font-family: "Nunito", sans-serif;
   background-color: #f8f9fc;
-  color: #FFF;
+  color: #fff;
 }
 
 a {
@@ -20,4 +20,22 @@ li {
 
 button {
   cursor: pointer;
+}
+
+/* Utility */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+:root {
+  --text-white: #fff;
+  --text-gray: #858796;
+  --text-primary: #4e73df;
+  --text-dark: #5a5c69;
+  --text-white-opacity: rgba(255, 255, 255, 0.4);
 }

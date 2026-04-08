@@ -58,11 +58,13 @@ hr:first-child {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* Remover classes */
 .box-list a p{
   color:rgba(255, 255, 255, .8);
   margin-left: 7px;
 }
 
+/* Remover classes */
 .box-list a i{
   color:rgba(255, 255, 255, .3);
 }
