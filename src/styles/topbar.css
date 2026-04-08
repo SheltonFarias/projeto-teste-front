@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
-  height: 56px;
+  height: 58px;
   font-size: 13.6px;
   background-color: #fff;
   box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)
@@ -16,7 +16,7 @@
 .search input{
   padding: 6px 12px;
   margin-left: 12px;
-  width: 366px;
+  width: 345px;
   height: 26px;
   border-radius: 8px;
   background-color: #f8f9fc;
@@ -32,7 +32,7 @@
 .search .btn-search {
   height: 40px;
   width: 38px;
-  background-color: var(--text-primary);
+  background-color: #4e73df;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: -10px;
@@ -50,7 +50,7 @@
 
 .division {
   border-right: 1px solid #e3e6f0;  
-  height: 37px;
+  height: 40px;
 }
 
 /* Remover classes */
